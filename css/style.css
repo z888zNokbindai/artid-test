@@ -33,9 +33,16 @@ body {
 }
 
 .mobile-menu {
-  display: none;
+  position: fixed;
+  top: 56px; /* ความสูง header */
+  left: 0;
+  right: 0;
+
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  z-index: 999;
+
+  display: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .mobile-menu a {
